@@ -13,7 +13,7 @@ int MyStrlen(const char* str) {
 char* Mystrcpy(char* dst, const char* src) {
 	char* ret = dst;
 	while (*src != '\0') {
-		*dst = *src;
+		*dst = *src;   //字符串赋值
 		dst++;
 		src++;
 	}
